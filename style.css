@@ -11,7 +11,7 @@ body{
 main{
     background-color: orange;
     width: 50vw;
-    height: 60vh;
+    height: 100h;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
@@ -27,4 +27,14 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:992px){
+    main{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+
+    
 }
